@@ -1,0 +1,57 @@
+.contents {
+    float:left;
+    margin: 0 10px;
+}
+
+.sudoku {
+    clear: left;
+}
+
+.sudoku button {
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.calendar {
+    margin: 0 auto;
+}
+
+.calendar td, .calendar th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.previous, .next {
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.previous:active, .next:active {
+    opacity: 0.7;
+}
+
+.previous {
+    background-color: greenyellow;
+}
+
+.next {
+    background-color:rgb(238, 65, 65);
+}
+
+.disabled {
+    color: rgb(190, 186, 186);
+}
+
+.today {
+    background-color: hotpink;
+    color: red;
+}
+
+.displayCalendarBtn {
+    margin-left: 500px;
+}
